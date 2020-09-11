@@ -1,0 +1,2 @@
+1. Code review
+	Going through someone else's code, documentation or configuration and checking that it all makes sense and follows expected patterns.

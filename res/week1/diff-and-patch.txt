@@ -1,0 +1,10 @@
+1. DIFF TOOL
+	Gives the differences between two files.
+	diff is used to find differences between two files. On its own, it’s a bit hard to use; instead, use it with diff -u to find lines which differ in two files
+	diff file1 file2 > new.diff
+	diff -u is used to compare two files, line by line, and have the differing lines compared side-by-side in the same output
+	diff -u file1 file2 > new.diff
+	diff file formats contain changes between two versions of a file
+2. PATCH TOOL
+	Takes a diff file and applies it to the old file
+	patch file1 < new.diff

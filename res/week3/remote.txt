@@ -1,0 +1,32 @@
+1. Remote repos help alot in collaboration.
+
+2. You modify local files, stage and commit them and then pull other changes from repo which are merged with your local repo and if there are conflicts then manually merge.
+
+3. Check config or remote
+	git remote -v
+
+4. Get detailed info on repo
+	git remote show <reponame>
+
+5. Get branches in remote repo
+	git branch -r
+
+6. Get commit history from remote repo when local repo is out of date, this doesn not replce the local branch but rather just gives us the commits done on the remote branch
+	git fetch
+	git merge <fetchedbranch>
+git fetch gets the commit history whereas git pull fetches and merges directly with the local repo
+
+7. Fetch the most up to date objects
+	git remote update
+
+8. Push a branch to remote repo
+	git push -u origin <branchname>
+
+9 .To prevent a 3 way merge use
+	goto remote repo
+	use git rebase master
+	comeback to master repo
+	git merge <branchname>
+
+10. Delete remote branch
+	git push --delete origin <branchname>

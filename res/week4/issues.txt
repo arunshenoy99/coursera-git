@@ -1,0 +1,9 @@
+1. Issues on github
+	Use the issues tab to raise issues on github. Whenever we commit to fix a particular issue we can add closes:#issuenumber and github will automatically close the issue.
+
+2. Continuous integration system
+	Will build and test our code everytime there is a change even through pull requests
+	Pipelines
+		Specify the steps you need to run to get the result u want
+	Artifacts
+		Name used to describe any files as part of a pipeline

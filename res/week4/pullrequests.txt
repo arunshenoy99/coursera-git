@@ -1,0 +1,19 @@
+1. Forking
+	Forking is a way of creating a copy of the given repository so that it belongs to our user.
+
+2. Pull request
+	A commit or series of commits that you send to the owner of the repo so that they can incorporate it into their tree.
+
+3. Patching a repo
+	First fork the repo and make changes to the local branch
+	Then create a pull request to the owner of the repo, it is upto the owner to decide whether to include your commits or not.
+
+4. Suppose we want to combine all our changes into a single commit and submit a single pull request
+	git rebase -i master
+	An editor opens up and we can choose what to do with the commits, we can use squash the second commit here.
+
+5. To see the commit graph type
+	git log --graph --oneline
+
+6. Force git to push current snapshot into git when there are merge conflicts
+	git push -f

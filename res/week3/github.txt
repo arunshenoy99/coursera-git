@@ -1,0 +1,17 @@
+1. Git is a distributed version control system, this means that each developer working on the project has a copy of the repositories on his local machine.
+
+2. Github is a place to store remote repos which can then be cloned by other people and worked upon.
+
+3. Clone a repo
+	git clone <repourl>
+
+4. Send a repo to github
+	git push 
+
+5. Use credential helper to prevent typing in password each time
+	git config --global credential.helper cache
+	username and password cached for 15 mins
+
+6. Retrieve new changes to a repository from remote
+	git pull
+
